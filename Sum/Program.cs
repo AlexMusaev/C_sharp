@@ -1,4 +1,6 @@
-﻿int NumberA = 45;
-int NumberB = 4;
+﻿int NumberA = new Random().Next(1, 10); //1 2 3 4 5 ... 9
+Console.WriteLine(NumberA);
+int NumberB = new Random().Next(1, 10); //1 2 3 4 5 ... 9
+Console.WriteLine(NumberB);
 int result = NumberA + NumberB;
 Console.WriteLine(result);
